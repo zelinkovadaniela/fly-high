@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.checkboxWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+.checkbox {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.searchButton {
+  background: rgb(28, 37, 41);
+    color: rgb(222, 222, 222);
+    font-size: 13px;
+    border-radius: 4px;
+    line-height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    transition: border 125ms cubic-bezier(0.15, 0.15, 0.35, 1) 0s, box-shadow 125ms cubic-bezier(0.15, 0.15, 0.35, 1) 0s, transform 125ms cubic-bezier(0.15, 0.15, 0.35, 1) 0s, background-color 125ms cubic-bezier(0.15, 0.15, 0.35, 1) 0s, color 125ms cubic-bezier(0.15, 0.15, 0.35, 1) 0s;
+    display: table;
+    padding: 0px 12px;
+    width: 5rem;
+    flex: 0 0 auto;
+    height: 38px;
+    margin-left: 8px;
+}
+
+.dropdownsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+  background-color: rgb(222, 222, 222);
+  border: 1px solid gray;
+  border-radius: 4px;
+  justify-content: center;
+  max-width: 800px;
+  margin: 16px auto;
+  align-items: center;
+  text-align: left;
+}
+
+.dateInput {
+  border-radius: 4px;
+    line-height: 38px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.flightList {
+  max-width: 800px;
+  margin: 48px auto;
+}
+
+.header {
+  padding: 32px 48px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('bg.jpg');
+}
